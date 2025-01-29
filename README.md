@@ -41,7 +41,6 @@
 
 ### 🏃‍♂️ 스터디원 
 [스터디원 테이블 쉽게 만들기 >](https://dclcps.csb.app/)
-
 <table>
   <tr>
     <td>
@@ -72,6 +71,14 @@
         height="120px"
       />
     </td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/haryan248">하현준</a></td>
+    <td><a href="https://github.com/jhlee0409">이재혁</a></td>
+    <td><a href="https://github.com/nakjun12">황낙준</a></td>
+    <td><a href="https://github.com/akatcn">이용훈</a></td>
+  </tr>
+  <tr>
     <td>
       <img
         src="https://avatars.githubusercontent.com/ssilver01"
@@ -93,24 +100,21 @@
         height="120px"
       />
     </td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/haryan248">하현준</a></td>
-    <td><a href="https://github.com/jhlee0409">이재혁</a></td>
-    <td><a href="https://github.com/nakjun12">황낙준</a></td>
-    <td><a href="https://github.com/이용훈">이용훈</a></td>
-    <td><a href="https://github.com/정소은">정소은</a></td>
-    <td><a href="https://github.com/SangWoo9734">박상우</a></td>
-    <td><a href="https://github.com/samseburn">고석영</a></td>
-  </tr>
-  <tr>
     <td>
       <img
         src="https://avatars.githubusercontent.com/ongddree"
         width="120px"
         height="120px"
       />
-    </td>    
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/ssilver01">정소은</a></td>
+    <td><a href="https://github.com/SangWoo9734">박상우</a></td>
+    <td><a href="https://github.com/samseburn">고석영</a></td>
+    <td><a href="https://github.com/ongddree">박서영</a></td>
+  </tr>
+  <tr>
     <td>
       <img
         src="https://avatars.githubusercontent.com/wo-o29"
@@ -139,6 +143,14 @@
         height="120px"
       />
     </td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/wo-o29">이우혁</a></td>
+    <td><a href="https://github.com/dding-g">조명근</a></td>
+    <td><a href="https://github.com/eunnbi">강은비</a></td>
+    <td><a href="https://github.com/JoyJaewon">한재원</a></td>
+  </tr>
+  <tr>
     <td>
       <img
         src="https://avatars.githubusercontent.com/rarlala"
@@ -148,13 +160,9 @@
     </td>
   </tr>
   <tr>
-    <td><a href="https://github.com/ongddree">박서영</a></td>
-    <td><a href="https://github.com/wo-o29">이우혁</a></td>
-    <td><a href="https://github.com/dding-g">조명근</a></td>
-    <td><a href="https://github.com/eunnbi">강은비</a></td>
-    <td><a href="https://github.com/JoyJaewon">한재원</a></td>
     <td><a href="https://github.com/rarlala">정수지</a></td>
-    
   </tr>
 </table>
+
+
 
