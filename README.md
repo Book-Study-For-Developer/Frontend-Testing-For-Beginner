@@ -6,10 +6,10 @@
 - 📚 스터디 자료: 프런트엔드 개발을 위한 테스트 입문
   - 단위 테스트 예제
     - 원서: https://github.com/frontend-testing-book/unittest
-    - 예시 코드: https://github.com/frontend-testing-book-kr/unittest
+    - 번역서: https://github.com/frontend-testing-book-kr/unittest
   - 실전 테스트 코드 예제
     - 원서: https://github.com/frontend-testing-book/nextjs
-    - 예시 코드: https://github.com/frontend-testing-book-kr/nextjs
+    - 번역서: https://github.com/frontend-testing-book-kr/nextjs
 
 ---
 
