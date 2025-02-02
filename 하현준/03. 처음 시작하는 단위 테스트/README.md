@@ -5,7 +5,7 @@
 - 테스트는 Jest가 제공하는 API [**`test`**](https://jestjs.io/docs/api#testname-fn-timeout)를 사용
 
 ```tsx
-test(name, fn, timeout);
+test(name, fn, timeout)
 // it(name, fn, timeout) 으로 사용해도 무방
 ```
 
@@ -16,7 +16,7 @@ test(name, fn, timeout);
 - timeout: 얼마가 지나면 중단할지에 대한 ms
 
 ```tsx
-expect(value).toBe(value);
+expect(value).toBe(value)
 ```
 
 - `expect`: 값을 테스트할 때마다 사용
@@ -27,7 +27,7 @@ expect(value).toBe(value);
 - 연관성 있는 테스트들을 그룹화하고 싶을 때는 [`describe`](https://jestjs.io/docs/api#describename-fn) 함수를 사용
 
 ```tsx
-describe(name, fn);
+describe(name, fn)
 ```
 
 - `describe`: 여러 관련 테스트를 그룹화하는 블록을 만듭니다
@@ -35,7 +35,14 @@ describe(name, fn);
 ## 테스트 실행 방법
 
 1. npm run test
-2. VSCode > Jest Runner 플러그인 활용
+2. VSCode > `Jest Runner` 플러그인 활용
+    - **제가 발생했던 이슈 공유**
+        
+        ![image](https://github.com/user-attachments/assets/63a269b7-75cf-42cc-a778-5c2f27b62bbc)
+        
+        - 폴더 위치를 한글로 하고 하위에 위치 시키면 test 폴더를 못찾는 이슈가 있습니다.
+        - **원인**: 사진에 `testMatch`를 보면 정규식으로 `.test.ts`의 파일을 찾는데, 한글로 하면 이를 못 찾음 (근데 정규식 상으로는 찾아야 하는게 정상인데, 아마도 UTF-8 과 관련되어 있어보임)
+        - **해결 방식**:  `jest.config.ts`에 새롭게 정규식을 짜거나 영어 이름을 사용 (저는 쉬운 방법인 영어 폴더명으로 선택하였습니다.)
 
 ## 조건 분기
 
@@ -181,7 +188,7 @@ describe("사칙연산", () => {
 
 ## 비동기 처리 테스트
 
-###
+### 
 
 ```tsx
 export function wait(duration: number) {
@@ -213,7 +220,7 @@ describe("비동기 처리", () => {
     test("지정 시간을 기다린 뒤 경과 시간과 함께 resolve된다", () => {
       return expect(wait(50)).resolves.toBe(50);
     });
-
+    
     // 2. async/await을 활용한 작성법
     test("지정 시간을 기다린 뒤 경과 시간과 함께 resolve된다", async () => {
       await expect(wait(50)).resolves.toBe(50);
@@ -222,7 +229,7 @@ describe("비동기 처리", () => {
       expect(await wait(50)).toBe(50);
     });
   });
-
+  
   // Reject 검증 테스트
   describe("timeout", () => {
     // catch문 활용
