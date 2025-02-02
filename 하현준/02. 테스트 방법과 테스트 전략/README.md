@@ -80,7 +80,7 @@
 
 https://fe-developers.kakaoent.com/2023/230209-e2e/
 
-![image.png](attachment:5e9020d8-f113-4663-91dd-10832a3ec8b9:image.png)
+![image](https://github.com/user-attachments/assets/9f236b58-f731-4b7c-9248-bc7908b2603a)
 
 위로 갈수록 테스트의 비용과 시간은 늘어나고, 안정성은 떨어진다. 이를 최적화하여 테스트 모델을 짜야한다.
 
@@ -96,7 +96,7 @@ https://fe-developers.kakaoent.com/2023/230209-e2e/
 
 프론트엔드에서는 단일 UI 컴포넌트로 구현되는 기능은 거의 없다. 그리고 프론트엔드에서의 기능은 UI 조작을 통해 시작하기 때문에 **통합 테스트의 비중이 높을 수록 우수한 테스트 전략**이라는 것이다.
 
-![image.png](attachment:faa9f61d-b2d3-441b-bdeb-71ac405c80c9:image.png)
+![image](https://github.com/user-attachments/assets/9c998a6b-3925-419a-ae6e-f493cd607868)
 
 ## 테스트 전략 계획
 
