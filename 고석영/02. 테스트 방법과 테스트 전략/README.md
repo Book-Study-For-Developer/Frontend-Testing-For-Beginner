@@ -69,6 +69,8 @@
 
 #### 아이스크림 콘 모델
 
+<img src="./testing-ice-cream.png" alt="The Testing Ice Cream Cone" width="500"/>
+
 - 안티패턴으로 자주 언급되는 테스트 전략 모델
 - 상층부 테스트 비중이 높아 높은 운용 비용 및 외부 모듈 의존성으로 불안정한 테스트 비율이 상대적으로 많음
 - 모든 테스트가 통과되는 데 걸리는 시간 → 개발 흐름에 영향
@@ -76,16 +78,29 @@
 
 #### 테스트 피라미드 모델
 
+<img src="./testing-pyramid.png" alt="The Testing Dorito" width="500"/>
+
 - 하층부 테스트의 비중이 높을수록 더욱 안정적이고 가성비 높은 테스트 가능하다는 것이 핵심
 - 상층부 테스트 → 실행 시간이 길어서 신속성이 떨어짐
 - 하층부 테스트 → 실행 시간이 짧아 신속성이 높고, 자주 실행할 수 있어서 안정성 또한 높음
 
 #### 테스트 트로피 모델
 
+> "Write tests. Not too many. Mostly integration."
+>
+> — Guillermo Rauch (@rauchg) [December 10, 2016](https://x.com/rauchg/status/807626710350839808?ref_src=twsrc%5Etfw)
+
+<img src="./testing-trophy.jpeg" alt="The Testing Trophy" width="500"/>
+
 - 통합 테스트 비중이 가장 높은 모델
   - 주로 여러 컴포넌트의 조합으로 구현된 기능
   - 사용자 조작(인터랙션)에서 시작
 - 테스팅 라이브러리와 Jest를 사용하면 헤드리스 브라우저 없이도 사용자 조작을 재현해 테스트 할 수 있어 실행 속도가 빠르면서도 실제 제품과 유사한 테스트 가능
+
+> - [해당 모델을 제안한 Kent C. dodds의 발표 영상](https://youtu.be/Fha2bVoC8SE?si=ehB3wmH_gpvqjaZO)
+> - 도리토 모델에서 공감X1000 😂
+>
+> <img src="./testing-dorito.jpeg" alt="The Testing Dorito" width="500"/>
 
 ### 테스트 전략 계획
 

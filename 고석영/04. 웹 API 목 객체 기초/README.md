@@ -50,7 +50,7 @@ test('인사말을 반환한다(원래 구현대로)', () => {
 })
 ```
 
-- jest.mock이 테스트할 모듈을 대체하면서 greet 함수 호출 시 undefined를 반환
+- `jest.mock`이 테스트할 모듈을 대체하면서 `greet` 함수 호출 시 `undefined`를 반환
 
 ```tsx
 import { greet } from './greet'
@@ -65,9 +65,9 @@ test('인사말을 반환하지 않는다(원래 구현과 다르게)', () => {
 ### 모듈을 스텁으로 대체하기
 
 - `jest.mock(moduleName, factory, options)`
-  - moduleName: 모킹할 모듈의 경로
-  - factory: 대체할 함수
-  - options
+  - `moduleName`: 모킹할 모듈의 경로
+  - `factory`: 대체할 함수
+  - `options`: 모킹 동작을 제어하는 추가적인 설정
 
 ```tsx
 import { greet, sayGoodBye } from './greet'
@@ -86,14 +86,14 @@ test('작별 인사를 반환한다(원래 구현과 다르게)', () => {
 })
 ```
 
-- 이때, 대체한 함수에 greet 함수를 구현하지 않았기 때문에 undefined로 반환됨
+- 이때, 대체한 함수에 `greet` 함수를 구현하지 않았기 때문에 `undefined`로 반환됨
 
 > 일부만 모킹하고 나머지는 원래 구현대로 사용하고 싶다면? → `jest.requireActual`
 
 ### 모듈 일부를 스텁으로 대체하기
 
 - 모듈의 일부만 모킹하고 나머지는 원본을 유지하는 방법
-- jest.requireActual(modulName)을 사용하여 실제 모듈의 나머지 기능을 유지 가능
+- `jest.requireActual(modulName)`을 사용하여 실제 모듈의 나머지 기능을 유지 가능
 
 ```tsx
 import { greet, sayGoodBye } from './greet'
@@ -140,10 +140,14 @@ export type Profile = {
   email: string
 }
 
-const host = (path: string) => `https://myapi.testing.com${path}`
-
 export function getMyProfile(): Promise<Profile> {
-  return fetch(host('/my/profile')).then(handleResponse)
+  return fetch('https://myapi.testing.com/my/profile').then(async res => {
+    const data = await res.json()
+    if (!res.ok) {
+      throw data
+    }
+    return data
+  })
 }
 ```
 
@@ -153,9 +157,7 @@ export function getMyProfile(): Promise<Profile> {
 import { getMyProfile } from '../fetchers'
 
 export async function getGreet() {
-  // 테스트하고 싶은 것은 이 라인에서의 데이터 취득 여부와
   const data = await getMyProfile()
-  // 취득한 데이터를 이 라인에서 사용할 수 있는지다.
   if (!data.name) {
     return `Hello, anonymous user!`
   }
