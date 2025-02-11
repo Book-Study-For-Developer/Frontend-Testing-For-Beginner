@@ -215,7 +215,7 @@ Promise를 반환하는 방법
 
    ```jsx
    test('비동기 테스트', async () => {
-     await expect(wait(50)).resolves.toBe(50);
+     expect(await wait(50)).resolves.toBe(50);
    });
    ```
 
