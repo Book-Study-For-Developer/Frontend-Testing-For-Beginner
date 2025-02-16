@@ -540,5 +540,5 @@ W3C의 WAI(Web Accessibility Initiative) 조직이 제정한 AIRA(Accessible Ric
     logRoles(container);
   });
   ```
-  ![image.png](attachment:e2da491f-8cd7-4e44-ac4c-c589573a1549:image.png)
+![image](https://github.com/user-attachments/assets/135c4d44-3c26-4e84-b0b2-17da34838e99)
 - 암묵적 역할이 부여되는 목록들 확인 (https://www.npmjs.com/package/aria-query)
