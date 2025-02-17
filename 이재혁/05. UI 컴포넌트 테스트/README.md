@@ -275,7 +275,7 @@ export const ArticleList = ({ items }: Props) => {
       await screen.findByText("text", queryOptions, waitForOptions);
       ```
 
-심 포인트:
+핵심 포인트:
 
 - 동기 검색: getBy, queryBy, getAllBy, queryAllBy
 - 비동기 검색: findBy, findAllBy
@@ -926,7 +926,7 @@ graph TD
 
 ```tsx
 // 연락처 입력 함수
-sync function inputContactNumber(
+async function inputContactNumber(
   inputValues = {
     name: "배언수",
     phoneNumber: "000-0000-0000",
@@ -973,9 +973,7 @@ async function inputDeliveryAddress(
 
 // 제출 버튼 클릭 함수
 async function clickSubmit() {
-  await user.click(
-    screen.getByRole("button", { name: "주문내용 확인" })
-  );
+  await user.click(screen.getByRole("button", { name: "주문내용 확인" }));
 }
 
 // 제출 핸들러 함수
@@ -1330,6 +1328,8 @@ test("원인이 명확하지 않은 에러가 발생하면 '알 수 없는 에�
 });
 ```
 
+---
+
 ## 8. UI 컴포넌트 스냅샷 테스트
 
 예기치 않은 UI 컴포넌트 변경 사항 검증 → 스냅샷 테스트로해라!
@@ -1412,6 +1412,8 @@ Snapshot name: `Snapshot: 계정명인 'taro'가 표시된다 1`
 ```bash
 $npx jest --updateSnapshot
 ```
+
+---
 
 ## 9. 암묵적 역할과 접근 가능한 이름
 
