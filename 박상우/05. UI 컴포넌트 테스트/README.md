@@ -140,7 +140,14 @@ test('items의 수만큼 목록을 표시한다', () => {
 
 #### 🧐 각 요소를 취득한 배열에는 어떤 값들이 저장될까?
 
-![image.png](attachment:6625b95f-a816-4cca-b2a8-a345ff747cf2:image.png)
+
+
+<div align='center'>
+	<img width="700" alt="image" src="https://github.com/user-attachments/assets/78339f29-fc47-4a0d-9655-ff84672c2012" />
+</div>
+
+--> `@testing-library/react`의 `render`함수를 활용하여 `render(<ArticleList items={items} />)`를 호출하면, React가 JSDOM을 이용해 가상의 화면을 렌더링한다. 이 과정에서 React는 실제 DOM 요소를 만들고, 이를 관리하기 위해 FiberNode를 해당 DOM 요소에 주입한다.
+
 
 <br/>
 
@@ -739,7 +746,10 @@ test("Snapshot: 계정명인 'taro'가 기록된다.", () =>< {
     logRoles(container);
   });
   ```
-  ![image.png](attachment:908d10fd-5384-4f63-a6b6-a333d5594c43:image.png)
+
+  <div align='center'>
+	<img src='https://github.com/user-attachments/assets/2d991a4c-a641-4c03-acf0-2b3c56c751df' width='700px'/>
+  </div>
 
 <br/>
 
