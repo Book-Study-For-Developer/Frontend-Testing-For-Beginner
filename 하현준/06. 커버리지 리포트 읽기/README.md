@@ -2,7 +2,7 @@
 
 코드가 얼마나 테스트됐는지 측정해 리포트를 작성하는 기능이 있는데 이를 **커버리지 리포트**라고 한다.
 
-![image.png](attachment:063d9078-ac08-4df4-adf0-39a84c29bfd8:image.png)
+![image](https://github.com/user-attachments/assets/fd48fdbc-60ef-4d37-8439-940293085aa3)
 
 ### 커버리지 리포트 구성
 
@@ -26,7 +26,7 @@
 
 리포트 파일에 대한 설정을 하고 실행하면 아래와 같은 파일을 볼 수 있다.
 
-![image.png](attachment:e0ad6cef-a417-4793-8341-842cb8013282:image.png)
+![image](https://github.com/user-attachments/assets/1f2db6d3-a162-4ae6-abab-a9461360f11d)
 
 - 녹색: 테스트가 충분
 - 노랑/빨강: 테스트가 불충분
@@ -53,10 +53,10 @@ ex) ‘커버리지가 80% 이상이 아니면 CI를 통과하지 못한다’
 
 `jest-htm-reporters` 를 활용하여 테스트의 리포트를 편하게 확인 할 수 있다.
 
-![image.png](attachment:b29fb57f-96c1-4ce7-ab2c-5ea7a3418857:image.png)
+![image](https://github.com/user-attachments/assets/b8788294-819a-492a-aa45-1f1f94620816)
 
 xtest로 작성된건 다음과 같이 pending 형태로 표현된다.
 
-![image.png](attachment:f8d1ad09-1390-4113-b6ff-00b4f4c0025e:image.png)
+![image](https://github.com/user-attachments/assets/65165769-edda-4fe3-aa05-e5cbdf17cef8)
 
 실패한 테스트에 대해서도 모두 표현을 해준다.
