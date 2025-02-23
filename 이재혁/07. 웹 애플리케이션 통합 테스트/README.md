@@ -108,7 +108,7 @@ test("Failed", () => {
 
 ### 테스트할 컴포넌트
 
-![Screenshot 2025-02-23 at 8.42.00 PM.png](7%20%E1%84%8B%E1%85%B0%E1%86%B8%20%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8F%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B8%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%201a38c7b909f280e8b1c3cd1ba05b5365/Screenshot_2025-02-23_at_8.42.00_PM.png)
+<img width="1193" alt="Screenshot_2025-02-23_at_8 42 00_PM" src="https://github.com/user-attachments/assets/7103fc74-647e-4901-9715-64690c88916c" />
 
 1. `My Posts` 를 클릭하면 `/my/posts` 로 이동한다.
 2. `Create Post` 를 클릭하면 `/my/posts/create` 로 이동한다.
@@ -171,7 +171,7 @@ test.each([
 });
 ```
 
-![image.png](7%20%E1%84%8B%E1%85%B0%E1%86%B8%20%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8F%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B8%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%201a38c7b909f280e8b1c3cd1ba05b5365/image.png)
+![image](https://github.com/user-attachments/assets/f9d4be07-8007-41d9-8bd8-aeb347e401b1)
 
 > [!INFO]
 >
@@ -371,7 +371,7 @@ export function App() {
 
 ### 테스트할 컴포넌트
 
-![image.png](7%20%E1%84%8B%E1%85%B0%E1%86%B8%20%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8F%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B8%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%201a38c7b909f280e8b1c3cd1ba05b5365/image%201.png)
+<img width="1153" alt="image 1" src="https://github.com/user-attachments/assets/32251f5a-6d30-4983-a404-d5a011dc20d1" />
 
 ```tsx
 type Props<T extends FieldValues = PostInput> = {
@@ -755,7 +755,7 @@ export const MyPostsCreate = () => {
 };
 ```
 
-![image.png](7%20%E1%84%8B%E1%85%B0%E1%86%B8%20%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8F%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B8%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%201a38c7b909f280e8b1c3cd1ba05b5365/image%202.png)
+<img width="862" alt="image 2" src="https://github.com/user-attachments/assets/ee86bef1-3ce0-42e3-b585-d7a1b48345ba" />
 
 ### 설계
 
