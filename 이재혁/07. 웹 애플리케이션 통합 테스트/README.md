@@ -173,13 +173,13 @@ test.each([
 
 ![image](https://github.com/user-attachments/assets/f9d4be07-8007-41d9-8bd8-aeb347e401b1)
 
-> [!INFO]
+> [!NOTE]
 >
-> > `next-router-mock` 라이브러리의 경우 13.5 까지는 지원되는 듯 하다
-> > 24년 5월 28일 마지막 릴리즈로 변동 없음
-> > 근데 예제의 router 위치가 next/navigation가 아닌 next/router 인것으로 보아 app router에 대한 지원은 라이브러리 공식문서에는 없는 듯하다.
-> > [github-How to test next/navigation?](https://github.com/vercel/next.js/discussions/42527)
-> > 여길보니 mock 함수로 한번 래핑해서 쓰는 듯하다?
+> `next-router-mock` 라이브러리의 경우 13.5 까지는 지원되는 듯 하다
+> 24년 5월 28일 마지막 릴리즈로 변동 없음
+> 근데 예제의 router 위치가 next/navigation가 아닌 next/router 인것으로 보아 app router에 대한 지원은 라이브러리 공식문서에는 없는 듯하다.
+> [github-How to test next/navigation?](https://github.com/vercel/next.js/discussions/42527)
+> 여길보니 mock 함수로 한번 래핑해서 쓰는 듯하다?
 
 ---
 
