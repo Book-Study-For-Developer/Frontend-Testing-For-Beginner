@@ -6,7 +6,7 @@
 - 화이트박스 테스트 - 구현 코드의 내부 구조를 파악하여 논리적으로 문서를 작성하는 테스트 방법
 - 기존 스크립트에 `--coverage` 옵션을 붙여 테스트하면 된다.
 
-![image.png](6%20%E1%84%8F%E1%85%A5%E1%84%87%E1%85%A5%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%85%E1%85%B5%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%86%B0%E1%84%80%E1%85%B5%201a38c7b909f280b682a8eb41db0e9ade/image.png)
+![image](https://github.com/user-attachments/assets/48290bb2-4457-4d44-b0fe-5aa8b526b9a5)
 
 테이블 Row가 나타내는 항목들
 
@@ -76,18 +76,18 @@ export default {
 
 그러면 생성 시에`unittest/coverage/lcov-report/06/index.html` 경로에 파일이 생성된다
 
-![image.png](6%20%E1%84%8F%E1%85%A5%E1%84%87%E1%85%A5%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%85%E1%85%B5%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%86%B0%E1%84%80%E1%85%B5%201a38c7b909f280b682a8eb41db0e9ade/image%201.png)
+<img width="1799" alt="image 1" src="https://github.com/user-attachments/assets/ff2bb15c-14ed-450d-a030-8da7916aa6ed" />
 
 ### 1. Articles.tsx
 
-![image.png](6%20%E1%84%8F%E1%85%A5%E1%84%87%E1%85%A5%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%85%E1%85%B5%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%86%B0%E1%84%80%E1%85%B5%201a38c7b909f280b682a8eb41db0e9ade/image%202.png)
+<img width="640" alt="image 2" src="https://github.com/user-attachments/assets/f7c90988-73dc-40b8-8ec7-fd196efd7321" />
 
 - `isLoading`에 대한 테스트 불충분 - TC`"데이터를 불러오는 중이면 '..loading'을 표시한다"`
 - `itmes.length`가 없을 경우에 대한 테스트 불충분- TC `목록이 비어 있으면 '게재된 기사가 없습니다'를 표시한다`
 
 ### 2. greetByTimes.ts
 
-![image.png](6%20%E1%84%8F%E1%85%A5%E1%84%87%E1%85%A5%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%85%E1%85%B5%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%86%B0%E1%84%80%E1%85%B5%201a38c7b909f280b682a8eb41db0e9ade/image%203.png)
+<img width="635" alt="image 3" src="https://github.com/user-attachments/assets/4f6e99e2-9e87-416c-9728-79cb510d957f" />
 
 1. `hour < 18` 조건에 대한 테스트 불충분 - TC `점심에는 '식사는 하셨나요'를 반환한다"`
 2. 위 두 분기에 해당하지 않은 경우에 대한 테스트 불충분 - TC `저녁에는 '좋은 밤 되세요'를 반환한다`
