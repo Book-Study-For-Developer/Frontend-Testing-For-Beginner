@@ -251,7 +251,7 @@ const { register, handelSubmit } = useForm({
 ```
 
 <div>
-  <img src='' width='500px' />
+	<img width="921" alt="image" src="https://github.com/user-attachments/assets/f5c54ab5-c0e4-4eb2-8bad-826f775b10fc" />
 </div>
 
 → 각 속성을 구조분해 할당을 통해 개별적으로 적용한다. ( [공식 문서](https://react-hook-form.com/docs/useform/register) )
@@ -765,7 +765,7 @@ export function selectImageFile(
 }
 ```
 
-2️⃣ 이미지 업로드 API 호출하는 목 함수
+**2️⃣ 이미지 업로드 API 호출하는 목 함수**
 
 ```tsx
 jest.mock('../fetcher');
