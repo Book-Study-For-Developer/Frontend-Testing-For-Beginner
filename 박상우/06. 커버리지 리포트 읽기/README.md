@@ -3,7 +3,7 @@
 커버리지 리포트 - 구현 코드가 얼마나 테스트됐는지 측정해 리포트를 작성하는 기능
 
 <div align='center'>
-  <img src='attachment:c68bd356-2aa6-410c-bd99-bce873bf4ab4:image.png' width='500px'>
+  <img width="884" alt="image1" src="https://github.com/user-attachments/assets/7ba248af-ea53-4b76-bcb0-51c944f7f2be" />
 </div>
 
 - Stmts ( 구문 커버리지 ) - 구문 파일에 있는 모든 구문이 한번 씩 실행되었는지
@@ -66,26 +66,26 @@ describe('greetByTime(', () => {
 1. 1️⃣, 2️⃣, 3️⃣ 모두 xtest로 생략한 경우
 
 <div align='center'>
-  <img src='attachment:17d1ee00-97a5-489e-a2f1-cab12cb36c95:image.png' width='500px'>
+  <img width="599" alt="image" src="https://github.com/user-attachments/assets/d3708540-f5d4-446b-a9e8-1287642926ca" />
 </div>
 
 2. 1️⃣ 번 테스트 케이스를 xtest로 생략한 경우
 
 <div align='center'>
-  <img src='attachment:17d1ee00-97a5-489e-a2f1-cab12cb36c95:image.png' width='500px'>
+  <img width="636" alt="image" src="https://github.com/user-attachments/assets/9edbf0d6-85b9-4b80-b0c2-aaa86002cf79" />
 </div>
 ![image.png](attachment:58cee1d8-1ff2-4b92-b660-a2058d2b3c00:image.png)
 
 3. 2️⃣, 3️⃣ 번 테스트 케이스를 xtest로 생략한 경우
 
 <div align='center'>
-  <img src='' width='500px'>
+  <img width="626" alt="image" src="https://github.com/user-attachments/assets/215012bb-7bba-46bc-bfeb-2df58ead8661" />
 </div>
 
 4. 모든 테스트 케이스를 수행하는 경우
 
 <div align='center'>
-  <img src='' width='500px'>
+  <img width="597" alt="image" src="https://github.com/user-attachments/assets/df34193e-ab08-4050-a367-a1b2e53be95b" />
 </div>
 
 커버리지 리포트는 구현 코드의 내부 구조를 파악해서 논리적으로 문서를 작성하는 화이트박스 테스트에서 필수적인 요소이다.
@@ -97,7 +97,7 @@ describe('greetByTime(', () => {
 JSX도 동일한 함수이기 때문에 구문 커버리지와 분기 커버리지를 측정할 수 있다.
 
 <div align='center'>
-  <img src='' width='500px'>
+  <img width="660" alt="image" src="https://github.com/user-attachments/assets/9e4c6f62-6d87-4578-afa2-9e99535acd8f" />
 </div>
 
 <br />
@@ -118,7 +118,7 @@ Jest 커버리지 리포트에서 제공하는 **브랜치(조건문) 커버리�
 ### 🧐 왜 테스트 케이스가 실행되지 않는데 `3x` 가 실행된거지?
 
 <div align='center'>
-  <img src='attachment:17d1ee00-97a5-489e-a2f1-cab12cb36c95:image.png' width='500px'>
+  <img width="599" alt="image" src="https://github.com/user-attachments/assets/08561c7d-caf8-4753-b488-f6a72c1ae927" />
 </div>
 
 모든 테스트 케이스가 생략된 경우에도 첫번째 줄은 3x로 테스트에 통과한 이력이 생긴다. ( answer by GPT… )
