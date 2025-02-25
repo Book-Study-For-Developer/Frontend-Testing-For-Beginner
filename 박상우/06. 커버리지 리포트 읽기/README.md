@@ -74,7 +74,6 @@ describe('greetByTime(', () => {
 <div align='center'>
   <img width="636" alt="image" src="https://github.com/user-attachments/assets/9edbf0d6-85b9-4b80-b0c2-aaa86002cf79" />
 </div>
-![image.png](attachment:58cee1d8-1ff2-4b92-b660-a2058d2b3c00:image.png)
 
 3. 2️⃣, 3️⃣ 번 테스트 케이스를 xtest로 생략한 경우
 
