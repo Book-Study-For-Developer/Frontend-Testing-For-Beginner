@@ -193,7 +193,7 @@ export const RouteMyPostsCreate: Story = {
 };
 ```
 
-![image.png](attachment:62f04426-1db2-4ae4-96f6-cb017c08706e:image.png)
+![image](https://github.com/user-attachments/assets/2eba05cd-4e1e-4c76-a790-d2da61851b0d)
 
 실제 스토리북을 실행시켜 확인해보면 Actions에 어떤 router의 동작이 실행되는지 확인이 가능하다.
 
@@ -214,7 +214,7 @@ export const SucceedSaveAsDraft: Story = {
 };
 ```
 
-![image.png](attachment:bac28434-ebe5-4ac9-aa32-d0d13b353a1b:image.png)
+![image](https://github.com/user-attachments/assets/46f53749-1f83-497e-859b-23d364657130)
 
 스토리북을 실행시켜보면 Interactions 부분에 유저의 어떤 인터랙션이 실행됐는지 로그로 남게 된다.
 
@@ -264,9 +264,9 @@ UI 컴포넌트가 변경되면 스토리도 반영이 되어야 한다. 이를 
     "test:storybook": "test-storybook --url http://localhost:6006",
 ```
 
-![image.png](attachment:3cae35b7-0557-42d5-b4c6-273775ac8df5:image.png)
+![image](https://github.com/user-attachments/assets/cf0a51b5-2507-4c51-8240-e660159bcd9f)
 
-![image.png](attachment:2f7e4ec9-d330-41cc-8f33-c9fa3899e972:image.png)
+![image](https://github.com/user-attachments/assets/85a0883a-4a98-4cea-a190-851c1f955de8)
 
 ### 접근성 테스트 자동화하기
 
