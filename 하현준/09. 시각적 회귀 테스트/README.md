@@ -76,7 +76,7 @@ Storycap은 스토리북을 크롤링하고 스크린샷 이미지를 찍습니�
 
 → 이미지는 https://www.npmjs.com/package/reg-suit 에 있다.
 
-![image.png](attachment:edff1d9b-1062-420e-b0cd-d2b14f413f4d:image.png)
+![image](https://github.com/user-attachments/assets/24bc4e2a-d760-4049-af9e-55f1f56e4e68)
 
 reg-suit와 연동하면 다음과 같이 파일이 생성된다.
 
