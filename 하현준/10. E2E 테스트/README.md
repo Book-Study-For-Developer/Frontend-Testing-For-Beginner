@@ -22,7 +22,7 @@ https://playwright.dev/
 
 웹 브라우저 기반 E2E 테스트 자동화 도구
 
-![image.png](attachment:e6a6cbd9-7982-497c-8e92-5e6e460068f0:image.png)
+![image](https://github.com/user-attachments/assets/4e0adc95-da3f-446c-b532-f6664f8d11a3)
 
 ### Locators 란?
 
@@ -45,7 +45,7 @@ Playwright includes test assertions in the form of `expect` function. To make 
 
 prisma 데이터를 초기화해야 테스트를 할 수 있음 ..🥹
 
-![image.png](attachment:a8241f6e-52f7-432e-b496-7937f2a0599f:image.png)
+![image](https://github.com/user-attachments/assets/54ca7146-d2d4-48aa-b4a3-fce01b1464d4)
 
 ## 프리즈마란?
 
